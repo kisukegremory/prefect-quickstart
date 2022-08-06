@@ -13,5 +13,3 @@ def do_request():
 def run_flow():
     res = do_request()
     print(res)
-
-run_flow()

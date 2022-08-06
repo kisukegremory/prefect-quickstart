@@ -1,0 +1,37 @@
+###
+### A complete description of a Prefect Deployment for flow 'Simple Request flow'
+###
+name: request-flow
+description: null
+tags:
+- test
+schedule: null
+parameters: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command:
+  - python
+  - -m
+  - prefect.engine
+  stream_output: true
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: Simple Request flow
+manifest_path: run_flow-manifest.json
+storage:
+  basepath: C:\Users\gonca\Desktop\Trabalho\resources\prefect-quickstart\projects\simple
+    requests flow
+  _is_anonymous: true
+  _block_document_name: anonymous-0bb27162-1dba-475f-a290-fffeca550a73
+  _block_document_id: f2293338-54c9-4578-a431-ea1fe18732ce
+  _block_type_slug: local-file-system
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null

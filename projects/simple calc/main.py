@@ -13,5 +13,3 @@ def printer(obj):
 @flow(name='Simple Calc Flow')
 def model_validator(model: Model):
     printer(model)
-
-model_validator({"a": 42, "b": 0, "c": 55})
